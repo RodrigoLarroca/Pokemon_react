@@ -1,0 +1,45 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  //CARTAS
+  .bg-green {background: linear-gradient(to right, #007a09, #6be66b);}
+  .bg-red {background: linear-gradient(to right, #800002, #fd4e4b);}
+  .bg-blue {background: linear-gradient(to right, #125ea8, #76befe);}
+  .bg-yellow {background: linear-gradient(to right, #be8f00, #ffdf8d);}
+  .bg-brown {background: linear-gradient(to right, #584026, #a5883fc8);}
+  .bg-purple {background: linear-gradient(to right, #4e19c2, #ad8aff);}
+  .bg-black {background: linear-gradient(to right, #474747, #dddddd);}
+  .bg-pink {background: linear-gradient(to right, #ac0a50, #fc6cb4);}
+  .bg-gray {background: linear-gradient(to right, #4d4c4c, #d3d3d3);}
+  .bg-white {background: linear-gradient(to right, #c0c0c0, #f1f1f1);}
+  .bg-all {background: linear-gradient(to right, #666, #999);}
+  
+  //TIPOS
+  .color-fire {background: linear-gradient(180deg, #ff7300, #af0000);}
+  .color-grass {background: linear-gradient(180deg, #08c401, #004b00);}
+  .color-steel {background: linear-gradient(180deg, #9eb7b8, #4a8083);}
+  .color-water {background: linear-gradient(180deg, #008ae6, #004e8d);}
+  .color-psychic {background: linear-gradient(180deg, #f366b9, #cc4786);}
+  .color-ground {background: linear-gradient(180deg, #bb750b, #553e07);}
+  .color-ice {background: linear-gradient(180deg, #51c4e7, #2b6d8a);}
+  .color-flying {background: linear-gradient(180deg, #00c6fd, #007099);}
+  .color-ghost {background: linear-gradient(180deg, #5e8ba7, #19242c);}
+  .color-normal {background: linear-gradient(180deg, #b3b3b3, #616161);}
+  .color-poison {background: linear-gradient(180deg, #c00090, #550040);}
+  .color-rock {background: linear-gradient(180deg, #8d7300, #5f5100);}
+  .color-fighting {background: linear-gradient(180deg, #e66f25, #b43a0a);}
+  .color-dark {background: linear-gradient(180deg, #707070, #555555);}
+  .color-bug {background: linear-gradient(180deg, #81f100, #4e9200);}
+  .color-dragon {background: linear-gradient(180deg, #4082a5, #f16e57);}
+  .color-electric {background: linear-gradient(180deg, #ece800, #9e9400);}
+  .color-fairy {background: linear-gradient(180deg, #ffbdeb, #e401ab);}
+  .color-shadow {background: linear-gradient(180deg, #7b62a3, #5b4678);}
+  .color-unknow {background: linear-gradient(180deg, #757575, #5c5c5c);}
+  
