@@ -1,25 +1,30 @@
 import React from "react";
-import * as FaIcons from "react-icons/fa";
 import css from "./header.module.scss";
 import logo from "../../../assets/pokemon-23.svg";
 
-export default function Header({ obtenerSearch }) {
+const Header = () => {
   return (
     <nav className={css.header}>
       <div className={css.div_header}>
         <div className={css.div_logo}>
           <img src={logo} alt="logo" />
         </div>
-        <div className={css.div_search}>
-          <div>
-            <FaIcons.FaSearch />
-          </div>
-          <input
-            type="search"
-            onChange={(e) => obtenerSearch(e.target.value)}
-          />
+        <div className={css.navbar}>
+          <ul className={css.navbar}>
+            <li className={css.navItem}>
+              <a className={css.navItem} href="#">Inicio</a>
+            </li>
+            <li className={css.navItem}>
+              <a className={css.navItem} href="#">Equipo</a>
+            </li>
+            <li className={css.navItem}>
+              <a className={css.navItem} href="#">Contacto</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
   );
-}
+};
+
+export default Header;
