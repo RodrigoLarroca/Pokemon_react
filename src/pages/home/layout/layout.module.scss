@@ -1,3 +1,39 @@
+.div_search {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 30px;
+    box-shadow: 1px 1px 4px #000;
+    width: 40%;
+    background-color: #58a0f2;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    justify-content: center;
+
+    >div {
+        width: 20%;
+        height: 100%;
+        display: grid;
+        place-items: center;
+        color: white;
+    }
+
+    >input {
+        width: 100%;
+        padding: 4px 10px;
+        height: 100%;
+        border: none;
+        outline: none;
+    }
+
+    &:hover {
+        background-color: #aaaaaa;
+    }
+}
+
 .card_content {
     width: 1400px;
     max-width: calc(100% - 30px);
@@ -12,7 +48,6 @@
 .section_pagination {
     display: flex;
     justify-content: center;
-    margin: 40px 0;
 
     .div_pagination {
         width: auto;
@@ -21,6 +56,8 @@
         border-radius: 8px;
         overflow: hidden;
         transition: background-color 0.3s;
+        margin-bottom: 40px;
+        margin-top: 8px;
 
         .item {
             color: white;
@@ -59,6 +96,7 @@
 
         .item_izquierdo {
             border-radius: 8px 0 0 8px;
+
         }
 
         .item_derecho {
